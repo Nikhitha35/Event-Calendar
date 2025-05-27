@@ -2,6 +2,8 @@
 
 An interactive, feature-rich event calendar built using React. This calendar allows users to create, edit, delete, and manage events with support for recurring events and drag-and-drop rescheduling. Events are saved locally, ensuring persistence across sessions.
 
+"A demo video is provided along with the code files"
+
 ##  Features
 
 -  Monthly calendar view with navigation
