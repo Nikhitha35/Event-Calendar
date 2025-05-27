@@ -1,16 +1,31 @@
-# Event-Calendar
-# React Calendar 
+#  Custom Event Calendar
 
-A modern calendar application built with React, featuring drag-and-drop event management, styled components, and date handling capabilities.
+An interactive, feature-rich event calendar built using React. This calendar allows users to create, edit, delete, and manage events with support for recurring events and drag-and-drop rescheduling. Events are saved locally, ensuring persistence across sessions.
 
-## Features
+##  Features
 
-- Interactive calendar interface
-- Drag and drop event management
-- Event creation and editing
-- Styled with styled-components
-- Date handling with date-fns
+-  Monthly calendar view with navigation
+-  Add, edit, and delete events
+-  Recurring event support (Daily, Weekly, Monthly, Custom)
+-  Event categories and color labels
+-  Persistent data storage using LocalStorage
+-  Drag-and-drop rescheduling
+-  Event conflict detection
+-  Optional: Search and filter events
+-  Responsive design for desktop and mobile
 
-#running
-npm install
-npm start
+##  Tech Stack
+
+- **Framework:** React
+- **State Management:** useState / Context API / Zustand
+- **Date Handling:** date-fns
+- **Persistence:** localStorage
+
+##  Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/custom-event-calendar.git
+   cd custom-event-calendar
+2. cd file_name
+3. npm start  
